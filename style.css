@@ -1,0 +1,1880 @@
+#header{
+		
+		z-index: 999; 
+		background-color: #00ACFF ;
+		font-size: 10px;
+		width: 100%;
+		word-spacing: 10px;
+		padding: 10px 50px 10px 50px;
+		color: white;
+		
+	}
+	button:focus{
+		outline: none!important;
+		
+	}
+
+	
+	#body{
+		background: url("pattern.png");
+	}
+	body{
+		
+			background-color: white!important;
+	}
+	#top{
+		width: 50px;
+		height: 50px;
+		border: 2px solid black;
+		background: #0086FF ;
+		text-align: center;
+		border-radius: 50px;
+		position: fixed;
+		top: 690px;
+		left: 94%;
+		z-index: 999;
+		transition: 0.4s;
+
+	}
+	
+	#top:hover{
+		background-color:black;
+		cursor: pointer;
+	}
+	#top i{
+		font-size:40px!important;color:  #FF8B00;
+		padding-top: 2px; 
+	}
+	html{
+		scroll-behavior: smooth;	
+		overflow-x: hidden;
+	}
+	
+	#header span{
+		transition: 0.5s;
+
+
+	}
+	#header span:hover{
+        color: black;
+        font-size: 11px;
+        cursor: default;
+        font-weight: bolder;
+	}
+	#space{
+		
+		text-align: right!important;
+		
+	}
+	#space-1{
+		
+		text-align: left!important;
+		position: relative;
+		top: 15px;
+		
+	}
+	#home-p{
+		
+     margin-top: 250px!important;
+     
+     width: 500px!important; 
+	 height: 400px!important;
+	 padding-top: 50px;
+	position: relative;
+	left: 200px;
+
+	}
+	
+	#shoe-home{
+	margin-top: 200px!important;
+	 padding-right:150px!important;
+	 width: 500px!important; 
+	 height: 500px;
+	 transition: 0.5s;
+	 
+	
+}
+	#p-1{
+		font-weight: bolder;
+		color: white;
+		text-shadow: 0px 0px 1px white,0px 0px 2px black;
+	}
+	#h-1{
+		font-weight: bolder;
+		color: white;
+		font-size: 50px;
+		text-shadow: 0px 0px 2px blue,0px 0px 2px black;
+		
+	}
+	#p-2{
+		font-size: 31px;
+		font-weight: 700;
+		color: white;
+		text-shadow: 0px 0px 1px black,0px 0px 2px black;
+	}
+	#home-p button{
+		padding: 15px;
+		border: 2px solid white;
+		background-color: #0082FF;
+		color: white ;
+		border-top-left-radius: 25px;
+		border-bottom-right-radius: 25px;
+		font-weight: bolder;
+		box-shadow: 9px 8px 1px 2px #00BFFF;
+		transition: 0.5s;
+
+	}
+	#home-p button:hover{
+       box-shadow: 5px 5px 1px 2px white;
+       border: 2px solid #00BFFF;
+	}
+
+#one{
+	background:linear-gradient(to top left,#FF4123 ,#FFB900);
+	width: 100%;
+	height: 700px;
+}
+
+#pattern{
+	background: url("pattern.png")!important;
+
+
+}
+
+    /*///nav///*/
+    #nav{
+        position: absolute;
+    top: 150px;
+    	left: 25%;
+    	z-index: 999999;
+    	 
+    	
+    	color: white;
+  margin: auto;
+    		
+    }
+
+    #logy{
+    	position: absolute;
+    	top: 125px;
+    	left: 10%;
+    	width: 120px;
+    	
+    }
+   
+    #nav li{
+    	font-weight: 100;
+padding-left: 25px;
+color: white;
+font-style: normal;
+list-style: none;
+float: left;
+transition: 0.5s;
+padding-right: 25px;
+padding: 25px; 
+border-top-left-radius: 0%;
+border-bottom-right-radius: 0%;
+font-family: 'Lato', sans-serif;
+
+    	
+
+    	
+    }
+    #nav li:hover{
+    	 color: black;
+   background-color: #00ACFF;
+   
+   border-top-left-radius: 80%;
+border-bottom-right-radius: 80%;
+border: 1px solid black; 
+    }
+
+	/*//curtain menu//*/
+	.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999999!important;
+  top: 0;
+  left: 0;
+  background:url(bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+ padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color:white;
+  font-weight: bolder;
+  display: block;
+  text-shadow: 0 0 2px black,0 0 4px black;
+  transition: 0.5s;
+  width: 50%;
+  margin: auto;
+}
+
+.overlay a:hover, .overlay a:focus {
+   	 color: orange;
+   	 text-align: center;
+   background-color: #00ACFF;
+   width: 50%;
+   border-top-left-radius: 80%;
+border-bottom-right-radius: 80%;
+border: 1px solid black; 
+padding-top: 20px;
+padding-bottom: 25px;
+    }
+}
+
+.closebtn {
+  
+   padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color:white;
+  font-weight: bolder;
+  display: block;
+  text-shadow: 0 0 2px black,0 0 4px black;
+  transition: 0.5s;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: 100px!important;
+ 
+}
+
+#open{
+	position: fixed;
+	top: 97px!important;
+	left: 60%;
+	z-index: 9999999!important;
+	
+	display: none;
+	color: white;
+
+}
+
+
+
+
+	/*///nav icons///*/
+	#nav-icons{
+		position: absolute;
+		top: 22.5%;
+		left: 75%;
+		z-index: 999999!important;
+		transition: 0.5s;
+		display: block;
+	}
+	#nav-icons i{
+     font-size: 20px!important;
+     color: #3CB1FB;
+     padding-left: 15px;
+     text-shadow: 0 0 1px black,0 0 1px black;
+     transition: 0.5s;
+	}
+     
+     #nav-icons i:hover{
+     	color: white;
+     	cursor: pointer;
+     }
+
+     /*//duplicate icons and log//*/
+      #navy{
+        position: absolute;
+    top: 150px;
+    	display: none;
+    	z-index: 999999;
+    	 
+    	
+    	color: white;
+  margin: auto;
+    		
+    }
+
+    #logy{
+    	position: absolute;
+    	top: 125px;
+    	left: 10%;
+    	width: 120px;
+    	
+    }
+   
+    #navy li{
+    	font-weight: 100;
+padding-left: 25px;
+color: white;
+font-style: normal;
+list-style: none;
+float: left;
+transition: 0.5s;
+padding-right: 25px;
+padding: 25px; 
+border-top-left-radius: 0%;
+border-bottom-right-radius: 0%;
+font-family: 'Lato', sans-serif;
+
+    	
+
+    	
+    }
+     #navy li:hover{
+    	 color: black;
+   background-color: #00ACFF;
+   
+   border-top-left-radius: 80%;
+border-bottom-right-radius: 80%;
+border: 1px solid black; 
+    }
+
+     #logy-d{
+      display: none;
+      width: 10%;
+     }
+     #logy-d:hover{
+     	background-color: transparent!important;
+     	border: none!important;
+     }
+     #logy-img{
+     	width: 80px!important;
+     	position:fixed;
+     	top: 50px;
+     }
+     #nav-icons-d {
+       display: none;
+       
+     }
+     #nav-icons-d:hover{
+     	background-color: transparent!important;
+     	border: none!important;
+     }
+     #nav-icons-d i{
+     	 font-size: 20px!important;
+     color: #3CB1FB;
+     padding-left: 15px;
+     text-shadow: 0 0 1px black,0 0 1px black;
+     transition: 0.5s;
+     }
+     #nav-icons-d i:hover{
+     	color:white;'
+     	border: none;
+     	background-color: transparent!important;
+     }
+
+	/*///SECTION 1///*/
+
+	#section-1{
+		margin-top: 100px;
+		
+	}
+	
+	
+	#sec-div-1{
+		
+		
+		border: 1px solid #0099FF;
+		padding: 20px;
+		
+		background-color: white;
+	}
+
+#sec-div-1 i{
+	font-size: 29px;
+	color: #009DFF!important;
+	text-shadow: none!important;
+}
+#sec-1{
+	background: linear-gradient(to top left,#FF6C00,cyan);
+	padding: 2px;
+	margin-bottom: 50px;
+
+
+}
+ #sec-p{
+	color: #FF6C00;
+	font-weight: 500;
+	padding-top: 10px;
+
+	
+}
+/*//cart and star icon and eye//*/
+.fa-star{
+	font-size: 17px!important;
+	color: #FFB900 !important;
+	text-shadow: 0 0 2px black,0 0 4px white;
+
+
+}
+
+.fa-cart-plus{
+	font-size: 27px!important;
+}
+#cart{
+	background-color: #0099FF;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	margin-left: 50%;
+	color: white;
+	font-size: 20px;
+	transition: 0.4s;
+
+}
+#cart i{
+	color: #FFB900;
+	padding-left: 10px;
+	transition: 0.4s;
+}
+#cart:hover{
+	background-color: #FFB900;
+	border-radius: 0px;
+}
+#cart:hover>i{
+	color: #00B0FF;
+}
+
+/*//sec-2-h//*/
+
+#sec-2-h{
+	margin-top: 100px;
+}
+
+#sec-2-h h1{
+ font-size: 25px;
+ font-weight: bolder;
+}
+
+#sec-2-h p{
+	color: #949A9D;
+}
+
+/*//sec-2//*/
+
+#sec-2{
+	margin-top: 50px!important;
+}
+#sec-div{
+border: 2px solid #E6E6f8 ;
+background-color:white;
+border: 1px solid #0099FF;
+padding: 20px;
+transition: 0.5s;
+}
+#sec-div:hover{
+	background-color: #A8A8BD95;
+}
+#sec-div span{
+	color: #13131690;
+}
+#sec-div span::before{
+  content: "_______";
+  position:absolute;
+  bottom: 100px;
+
+  
+}
+
+#sec-2-1{
+	
+	
+	height: 300px;
+	
+	transition: 0.5s;
+
+	
+}
+#sec-2-2{
+	
+	height: 300px;
+	transition: 0.5s;
+	
+	
+}
+#sec-2-3{
+	
+	height: 300px;
+	transition: 0.5s;
+	
+	
+}
+
+#sec-2-p1{
+	padding-left: 50px;
+	padding-top: 20px;
+	font-size: 150%;
+	font-weight: 500;
+	color: #11181E;
+	
+}
+
+#sec-2-p2{
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+background-color: transparent;
+	width: 100px;
+	border:2px solid #04ADF9 ;
+	border-radius:10px;
+	z-index: 1; 
+	transition: 0.4s;
+	
+
+}
+#sec-2-p2:hover{
+background-color: #00ACFF;
+cursor: pointer;
+color: white;
+border: 2px solid white;
+
+
+}
+
+
+/*//sale//*/
+
+#sale{
+	background: url("sale.jpg");
+	margin-top: 150px;	
+	height: 500px;
+	background-position: center;
+	background-size: 100%;
+}
+#sale-p-1{
+	font-size: 25px;
+	color: white;
+	padding-top: 150px;
+	font-weight: 600;
+	text-shadow: 0 0 2px black,0 0 4px black;
+}
+#sale-p-2{
+	font-size: 85px;
+	color: black;
+	font-stretch:ultra-expanded;
+	text-shadow: 0 0 4px white,0 0 4px white;
+	font-weight: 900;
+}
+#sale-p-3{
+	color: #B7C0C5 ;
+	font-weight: 600;
+	margin-top: 10px;
+	font-size: 17px;
+}
+#sale button{
+	background:linear-gradient(to top left,#FF5201,#FFB201 );
+	padding:10px 25px 10px 25px;
+	color: white;
+	border: 0px solid transparent;
+	border-radius: 5px;
+	font-weight: bold;
+	text-shadow: 0 0 4px black;
+	transition: 0.5s;
+}
+#sale button:hover{
+ border: 2px solid white;
+background:linear-gradient(to top left,#00A4FF,#FF5201);
+}
+
+
+	/*//sec-3//*/
+
+#sec-3{
+	margin-top: 50px!important;
+}
+#sec-div-3{
+border: 1px solid #E6E6f8 ;
+background-color: white;
+
+padding: 20px;
+transition: 0.5s;
+
+}
+#sec-div-3:hover{
+	background-color: #A8A8BD95;
+}
+#sec-div-3 span{
+	color: #13131690;
+	font-size: 15px;
+}
+#sec-div-3 span::before{
+  content: "________";
+  position:absolute;
+  bottom: 115px;
+
+  
+}
+
+#sec-3-1{
+	
+	
+	
+	height: 280px;
+	
+
+	
+}
+#sec-3-2{
+	
+	height: 280px;
+	
+	
+}
+#sec-3-3{
+	
+	height: 280px;
+	
+	
+}
+
+#sec-3-p1{
+	padding-left: 0px;
+	padding-top: 20px;
+	font-size: 110%;
+	font-weight: 500;
+	color: #11181E;
+	
+}
+
+#sec-3-p2{
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: left;
+background-color: transparent;
+	transition: 0.4s;
+	
+
+}
+#sec-3-p2:hover{
+
+cursor: pointer;
+
+
+
+}
+
+/*//section 4 blog//*/
+
+
+#sec-4{
+	margin-top: 50px!important;
+}
+#sec-div-4{
+border: 1px solid #E6E6f8 ;
+background-color: white;
+
+padding: 20px;
+transition: 0.5s;
+
+}
+#sec-div-4:hover{
+	background-color: #A8A8BD95;
+}
+#sec-div-4 span{
+	color: #13131690;
+	font-size: 15px;
+}
+
+
+#sec-4-1{
+
+	
+	height: 280px;
+	transition: 0.5s;
+
+	
+}
+#sec-4-1:hover{
+	border: 10px solid transparent;
+}
+#sec-4-2{
+	
+	height: 280px;
+	
+	transition: 0.5s;
+}
+#sec-4-2:hover{
+	border: 10px solid transparent;
+}
+#sec-4-3{
+	
+	height: 280px;
+	transition: 0.5s;
+	
+}
+#sec-4-3:hover{
+	border: 10px solid transparent;
+}
+
+#sec-4-p1{
+	padding-left: 0px;
+	padding-top: 20px;
+	font-size: 110%;
+	font-weight: 500;
+	color: #11181E;
+	
+}
+
+#sec-4-p2{
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: left;
+background-color: transparent;
+	transition: 0.4s;
+	
+
+}
+#sec-4-p2:hover{
+
+cursor: pointer;
+
+
+
+}
+
+#lrn{
+	color: #00A4FF ;
+	font-weight: bolder;
+	font-size: 17px;
+	transition: 0.4s;
+	width: 140px;
+
+}
+#sec-div-4:hover>#lrn{
+	margin-left: 20px;
+	cursor: pointer;
+	color: orange;
+	text-shadow: 0 0 2px black,0 0 2px black;
+	
+}
+
+/*//subscribe us//*/
+#subs-pattern{
+	background: url("pattern.png");
+}
+
+#sec-5{
+	padding-bottom: 100px;
+	margin-top: 100px;	
+	background:linear-gradient(to top left,#FF4123 ,#FFB900  );
+	padding-top:100px;
+}
+
+#l-p{
+color: white;
+font-weight: 800!important;
+font-size: 42px;
+padding-bottom: 50px;
+font-family: sans-serif;
+font-style: italic;
+
+}
+#l-i{
+	width: 80%;
+background-color: transparent;
+border: none;
+padding-bottom: 17px;
+border-bottom: 2px solid white;
+color: white;
+font-size: 20px;
+transition: 0.8s;
+
+
+}
+#l-i::placeholder{
+	font-size: 17px;
+	font-weight:900px!important;
+	color: white;
+		font-family: sans-serif;
+font-style: italic;
+font-weight: bolder;
+
+	
+}
+#l-i:focus{
+	outline: none;
+	width: 40%;
+
+}
+#l-b{
+	background-color: #FFFFFF;
+	border: 2px solid white;
+	padding: 17px;
+	margin-top: 50px;
+	width: 180px;
+	box-shadow: 8px 8px 2px 1px #43AEF6;
+	margin-left: 25px;
+	font-weight: 700;
+	font-style: italic;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	transition:0.7s;
+}
+#l-b:hover{
+	background:#00B8FF; 
+	color: white;
+
+	box-shadow: 8px 8px 2px 1px white;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.fa-angle-right{
+	color: cyan;
+	font-size: 21px;
+	
+	font-weight:900;
+	animation: ani 0.8s linear infinite;
+	overflow: hidden;
+}
+#l-icon{
+	color: #0082FF;
+	animation: ani 1s  linear infinite;
+	overflow: hidden;
+}
+@keyframes ani{
+	0%{
+      position: relative;
+      left:0px;
+	}
+	25%{
+      position: relative;
+      left:10px;
+	}
+	50%{
+      position: relative;
+      left:20px;
+	}
+	75%{
+      position: relative;
+      left:25px;
+	}
+	100%{
+      position: relative;
+      left:30px;
+	}
+}
+
+/*///last section///*/
+
+#last{
+	
+	background-color: black;
+	padding: 50px 0px 100px 0px
+}
+
+#last-1-1,#last-1-2,#last-1-3,#last-1-4{
+	color: #FF7700!important;
+	font-size: 17PX;
+	font-weight: bolder;
+	margin-top: 50px;
+
+}
+
+#last-1 i{
+	color: #FF7700;
+	font-size: 20px; padding-right: 10px;
+}
+
+#last p{
+	color:#F3A76480;
+	transition: 0.4s;
+}
+#last p:hover{
+	font-size: 17px;
+	cursor:pointer;
+}
+
+/*///custom scroll bar///*/
+::-webkit-scrollbar{
+	width: 15px;
+	
+	background-color: black;
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(transparent,#00A1FF);
+	border-radius: 12px;
+	padding:5px;
+	transition: .5s;
+	border: 50px solid lime;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	height: 120px;
+	box-shadow: 0 0 25px 0 cyan;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: linear-gradient(transparent,#FF7B00);
+}
+
+/*//responsive sec//*/ 
+
+@media(min-width: 1325px)
+{
+	
+
+
+
+}
+@media(min-width: 1200px) and (max-width: 1324px){
+	#cart{
+			background-color: #0099FF;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	margin-left: 50%;
+	color: white;
+	font-size: 20px;
+	transition: 0.4s;
+	}
+			#sec-div span::before{
+  content: "_______";
+  position:absolute;
+  bottom: 100px;
+
+  
+}
+}
+	@media(min-width: 1024px) and (max-width: 1199px){
+	
+	#nav{
+        position: absolute;
+    top: 150px;
+    	left: 25%;
+    	z-index: 999999;
+    	 
+    	
+    	color: white;
+  margin: auto;
+    		
+    }
+    #logy-d{
+    	padding-right: 150px!important;
+    	width: 100px!important;
+    }
+
+    #logy{
+    	position: absolute;
+    	top: 132px;
+    	left: 10%;
+    	width: 100px;
+    	
+    }
+   
+    	#nav li{
+    	font-weight: 100;
+padding-left: 25px;
+color: white;
+font-style: normal;
+list-style: none;
+float: left;
+transition: 0.5s;
+padding-right: 25px;
+padding: 25px; 
+border-top-left-radius: 0%;
+border-bottom-right-radius: 0%;
+font-family: 'Lato', sans-serif;
+
+    	
+
+    	
+    }
+
+
+
+	#cart{
+			background-color: #0099FF;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	margin-left: 40%;
+	color: white;
+	font-size: 17px;
+	transition: 0.4s;
+	}
+		#sec-div span::before{
+  content: "_______";
+  position:absolute;
+  bottom: 92px;
+
+  
+}
+#sec-div-3 span::before{
+	 content: "________";
+  position:absolute;
+  bottom: 110px;
+}
+	#nav-icons{
+		position: absolute;
+		top: 175px;
+		left: 80%;
+		z-index: 999999!important;
+	}
+	#logo{
+	
+	width: 70%;
+	position: relative;
+	right: 7%;
+    }
+    #home-p{
+		
+     margin-top: 250px!important;
+     
+     width: 500px!important; 
+	 height: 400px!important;
+	 padding-top: 50px;
+	position: relative;
+	left: 150px;
+
+	}
+	#p-1{
+		font-weight: bolder;
+		color: white;
+		text-shadow: 0px 0px 1px white,0px 0px 2px black;
+	}
+	#h-1{
+		
+		font-size: 35px;
+		
+		
+	}
+	#p-2{
+		font-size: 25px;
+		
+		
+	}
+	#home-p button{
+		padding: 12px;
+		
+		color: white ;
+		
+		
+
+	}
+
+	
+	#shoe-home{
+	margin-top: 220px!important;
+	 padding-right:150px!important;
+	 width: 500px!important; 
+	 height: 405px;
+	 transition: 0.5s;
+	 
+	
+    }
+    #one{
+    	height: 720px;
+    }
+   
+}
+
+@media(min-width: 992px) and (max-width: 1023px){
+  
+  #nav{
+        position: absolute;
+    top: 140px;
+    	left: 18%;
+    	z-index: 999999;
+    	 
+    	
+    	color: white;
+  margin: auto;
+    		
+    }
+      #logy-d{
+    	padding-right: 150px!important;
+    	
+    	width: 100px!important;
+    }
+
+    #logy{
+    	position: absolute;
+    	top: 129px;
+    	left: 5%;
+    	width: 100px;
+
+    	
+    }
+   
+   	#nav li{
+    	font-weight: 100;
+padding-left: 25px;
+color: white;
+font-style: normal;
+list-style: none;
+float: left;
+transition: 0.5s;
+padding-right: 25px;
+padding: 25px; 
+border-top-left-radius: 0%;
+border-bottom-right-radius: 0%;
+font-family: 'Lato', sans-serif;
+
+
+    	
+
+    	
+    }
+	#cart{
+			background-color: #0099FF;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	margin-left: 40%;
+	color: white;
+	font-size: 17px;
+	transition: 0.4s;
+	}
+		#sec-div span::before{
+  content: "_______";
+  position:absolute;
+  bottom: 92px;
+
+  
+}
+#sec-div-3 span::before{
+	 content: "________";
+  position:absolute;
+  bottom: 110px;
+}
+		
+	#nav-icons{
+		position: absolute;
+		top: 165px;
+		left: 80%;
+		z-index: 999999!important;
+	}
+    #home-p{
+		
+     margin-top: 250px!important;
+     
+     width: 500px!important; 
+	 height: 400px!important;
+	 padding-top: 50px;
+	position: relative;
+	left: 140px;
+
+	}
+	#p-1{
+		font-weight: bolder;
+		color: white;
+		text-shadow: 0px 0px 1px white,0px 0px 2px black;
+	}
+	#h-1{
+		
+		font-size: 35px;
+		
+		
+	}
+	#p-2{
+		font-size: 24px;
+		
+		
+	}
+	#home-p button{
+		padding: 10px;
+		font-size: 15px!important;
+		color: white ;
+		
+		
+
+	}
+
+	
+	#shoe-home{
+	margin-top: 220px!important;
+	 padding-right:150px!important;
+	 width: 500px!important; 
+	 height: 400px;
+	 transition: 0.5s;
+	 
+	
+    }
+     #one{
+		height: 100vh;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	
+	#nav{
+        position: absolute;
+    top: 120px;
+    	left: 15%;
+    	z-index: 999999;
+    	 
+    	
+    	color: white;
+  margin: auto;
+    		
+    }
+    #logy-d{
+    	padding-right: 150px!important;
+    	width: 100px!important;
+    }
+    #nav-icons-d i{
+    	font-size: 12px!important;
+    }
+    #nav-i{
+    	font-size: 12px!important;
+    	
+    }
+    #logy-img{
+    	width: 70px!important;
+    }
+
+    #logy{
+    	position: absolute;
+    	top: 110px;
+    	left: 5%;
+    	width: 80px;
+    	
+    }
+   
+   	#nav li{
+    	font-weight: 100;
+padding-left: 25px;
+color: white;
+font-style: normal;
+list-style: none;
+float: left;
+transition: 0.5s;
+padding-right: 25px;
+padding: 25px; 
+border-top-left-radius: 0%;
+border-bottom-right-radius: 0%;
+font-family: 'Lato', sans-serif;
+font-size: 12px!important;
+
+    	
+
+    	
+    }
+	#cart{
+			background-color: #0099FF;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	margin-left: 20%;
+	color: white;
+	font-size: 17px;
+	transition: 0.4s;
+	margin-top: 10%;
+	}
+		#sec-div span::before{
+  content: "_______";
+  position:absolute;
+  bottom: 110px;
+
+  
+}
+#sec-div-3 span::before{
+	 content: "________";
+  position:absolute;
+  bottom: 125px;
+}
+#sec-2-p1{
+	font-size: 18px;
+	
+	padding: 0;
+}
+#sec-2-p2{
+	font-size: 15px;
+	width: 70px;
+}
+#sec-div-4 span{
+	color: #13131690;
+	font-size: 12px;
+}
+	#top{
+		
+		position: fixed;
+		top: 690px;
+		left: 90%;
+		
+
+	}
+	#nav-icons{
+		position: absolute;
+		top: 138px;
+		left: 80%;
+		z-index: 999999!important;
+	}
+	#nav-icons i{
+		font-size: 15px!important;
+	}
+	#logo{
+	
+	width: 60%;
+	position: relative;
+	right: 28%;
+	margin-top: 5px;
+    }
+    #home-p{
+		
+     margin-top: 260px!important;
+     
+     width: 500px!important; 
+	 height: 400px!important;
+	 padding-top: 50px;
+	position: relative;
+	left: 120px;
+
+	}
+	#p-1{
+		font-weight: bolder;
+		color: white;
+		text-shadow: 0px 0px 1px white,0px 0px 2px black;
+	}
+	#h-1{
+		
+		font-size: 26px;
+		
+		
+	}
+	#p-2{
+		font-size: 17px;
+		
+		
+	}
+	#home-p button{
+		padding: 10px;
+		font-size: 15px!important;
+		color: white ;
+		
+		
+
+	}
+
+	
+	#shoe-home{
+	margin-top: 270px!important;
+	 padding-right:100px!important;
+	 width: 500px!important; 
+	 height: 300px;
+	 transition: 0.5s;
+	 
+	
+    }
+     #one{
+		height: 720px;
+	}
+}
+
+@media(min-width: 524px) and (max-width: 767px){
+	#nav{
+		display: none;
+
+	}
+	#nav-i{
+		display: none;
+		color: transparent!important;
+	}
+	#logy{
+		width: 80px;
+		
+	}
+	#cart{
+			background-color: #0099FF;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	margin-left: 50%;
+	color: white;
+	font-size: 17px;
+	transition: 0.4s;
+	margin-top: 10%;
+	}
+		#sec-div span::before{
+  content: "_______";
+  position:absolute;
+  bottom:106px;
+
+  
+}
+#sec-div-3 span::before{
+	 content: "________";
+  position:absolute;
+  bottom: 122px;
+}
+#sec-2-p1{
+	font-size: 18px;
+	
+	padding: 0;
+}
+#sec-2-p2{
+	font-size: 15px;
+	width: 70px;
+}
+#sec-div span {
+	
+	padding-left: 10px;
+}
+
+	#sec-div{
+		margin-top: 50px;
+	}
+	#sec-3-1,#sec-3-2,#sec-3-3,#sec-4-1,#sec-4-2,#sec-4-3{
+margin-top: 50px;
+	}
+		#space{
+		margin-top: 20px;
+		text-align: center!important;
+	}
+	#space-1{
+		text-align: center!important;
+	}
+	#b{
+		font-size: 12px;
+		border: 1px solid red;
+		display: none;
+	}
+	#top{
+		
+		position: fixed;
+		top: 690px;
+		left: 80%;
+		
+
+	}
+	#nav-icons{
+		position: absolute;
+		top:180px;
+		left: 70%;
+		z-index: 999999!important;
+		
+	}
+	#open{
+		display: block;
+		position: fixed;
+	top: 122px!important;
+	left: 82%;
+		
+	}
+
+	#nav-icons i{
+		font-size: 15px!important;
+	}
+	
+    #home-p{
+		
+     margin-top: 180px!important;
+     
+     width: 500px!important; 
+	 height: 400px!important;
+	 padding-top: 50px;
+	position: relative;
+	left: 0%;
+	text-align: center;
+
+	}
+	#p-1{
+		font-weight: bolder;
+		color: white;
+		text-shadow: 0px 0px 1px white,0px 0px 2px black;
+	}
+	#h-1{
+		
+		font-size: 36px;
+		
+		
+	}
+	#p-2{
+		font-size: 22px;
+		
+		
+	}
+	#home-p button{
+		padding: 10px;
+		font-size: 15px!important;
+		color: white ;
+		
+		
+		
+		
+
+	}
+
+	
+	#shoe-home{
+	margin-top:-110px!important;
+	 padding-right:250px!important;
+	 width: 200px!important; 
+	 height: 200px;
+	 transition: 0.5s;
+	 position: relative;
+	 left: 120px;
+	 
+	
+    }
+    #one{
+		height: 100vh;
+	}
+
+
+}
+@media(min-width: 365px) and (max-width: 523px){
+	#nav{
+		display: none;
+	}
+	#nav-i{
+		display: none;
+		color: transparent!important;
+	}
+	#logy-d{
+		
+		position: relative;
+		left: -50px!important;
+	}
+	#nav-icons-d{
+		position: relative;
+		left: -20%!important;
+		padding: 0;
+		box-sizing: content-box;
+		
+	}
+	#nav-icons-d i{
+		font-size: 12px!important;
+	}
+	#logy{
+		width: 80px;
+	}
+	#l-p{
+		font-size: 35px;
+	}
+	#sale-p-1{
+		font-size: 20px;
+	}
+	#sale-p-2{
+		font-size: 50px;
+	}
+	#sale-p-3{
+		font-size: 16px;
+	}
+	#sale button{
+		font-size: 15px;
+	}
+		#sec-div span::before{
+  content: "_______";
+  position:absolute;
+  bottom:100px;
+
+  
+}
+#sec-div-3 span::before{
+	 content: "________";
+  position:absolute;
+  bottom: 115px;
+}
+#sec-div{
+		margin-top: 50px;
+	}
+	#sec-3-1,#sec-3-2,#sec-3-3,#sec-4-1,#sec-4-2,#sec-4-3{
+margin-top: 50px;
+	}
+		#space{
+		margin-top: 20px;
+		text-align: center!important;
+		font-size: 7px;
+	}
+	#space-1{
+		text-align: center!important;
+		font-size: 7px;
+	}
+		#b{
+		font-size: 12px;
+		border: 1px solid red;
+		display: none;
+
+	}
+	#top{
+		
+		position: fixed;
+		top: 80%;
+		left: 80%;
+
+		
+
+	}
+		#nav-icons{
+		position: absolute;
+		top: 180px;
+		left: 60%;
+		z-index: 999999!important;
+		
+	}
+	#open{
+		display: block;
+		position: fixed;
+	top: 122px!important;
+	left: 77%;
+	
+		
+	}
+	#nav-icons i{
+		font-size: 15px!important;
+	}
+	
+    #home-p{
+		
+     margin-top: 180px!important;
+     
+     width: 500px!important; 
+	 height: 400px!important;
+	 padding-top: 50px;
+	position: relative;
+	left: 0%;
+	text-align: center;
+
+	}
+	#p-1{
+		font-weight: bolder;
+		color: white;
+		text-shadow: 0px 0px 1px white,0px 0px 2px black;
+	}
+	#h-1{
+		
+		font-size: 26px;
+		
+		
+	}
+	#p-2{
+		font-size: 17px;
+		
+		
+	}
+	#home-p button{
+		padding: 10px;
+		font-size: 15px!important;
+		color: white ;
+		
+		
+		
+		
+
+	}
+	#open{
+		display: block;
+	}
+
+	
+	#shoe-home{
+	margin-top:-140px!important;
+	 padding-right:120px!important;
+	 width: 500px!important; 
+	 height: 200px;
+	 transition: 0.5s;
+	 position: relative;
+	 left: 50px;
+	 
+	
+    }
+    html{
+		scroll-behavior: smooth;	
+		overflow-x: hidden;
+	}
+	#one{
+		height: 100vh;
+	}
+}
+
+@media(min-width: 320px) and (max-width: 364px){
+	#nav{
+		display: none;
+	}
+	#nav-i{
+		display: none;
+		color: transparent!important;
+	}
+	#logy-d{
+		
+		position: relative;
+		left: -50px!important;
+	}
+	#nav-icons-d{
+		position: relative;
+		left: -20%!important;
+		padding: 0;
+		box-sizing: content-box;
+		
+	}
+	#nav-icons-d i{
+		font-size: 12px!important;
+	}
+	#logy{
+		width: 70px;
+		position: absolute;
+		top: 129px;
+	}
+	#l-p{
+		font-size: 29px;
+	}
+	#sale-p-1{
+		font-size: 15px;
+	}
+	#sale-p-2{
+		font-size: 40px;
+	}
+	#sale-p-3{
+		font-size: 14px;
+	}
+	#sale button{
+		font-size: 10px;
+	}
+	#cart{
+			background-color: #0099FF;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 20px 5px 20px;
+	margin-left: 20%;
+	color: white;
+	font-size: 12px;
+	transition: 0.4s;
+	margin-top: 10%;
+	}
+	#sec-div span::before{
+  content: "_______";
+  position:absolute;
+  bottom:88px;
+
+  
+}
+#sec-div-3 span::before{
+	 content: "________";
+  position:absolute;
+  bottom: 102px;
+}
+#sec-div{
+		margin-top: 50px;
+	}
+	#sec-3-1,#sec-3-2,#sec-3-3,#sec-4-1,#sec-4-2,#sec-4-3{
+margin-top: 50px;
+	}
+			#space{
+		margin-top: 20px;
+		text-align: center!important;
+		font-size: 7px;
+	}
+	#space-1{
+		text-align: center!important;
+		font-size: 7px;
+	}
+		#b{
+		font-size: 12px;
+		border: 1px solid red;
+		display: none;
+
+	}
+	#top{
+		
+		position: fixed;
+		top: 90%;
+		left: 79%;
+		
+
+	}
+		#nav-icons{
+		position: absolute;
+		top: 170px;
+		left: 55%;
+		z-index: 999999!important;
+		
+	}
+	#open{
+		display: block;
+		position: fixed;
+	top: 122px!important;
+	left: 80%;
+		
+	}
+	#nav-icons i{
+		font-size: 15px!important;
+	}
+	#logo{
+	
+	width: 250px;
+	position: relative;
+	right: 60%;
+
+		
+    }
+    #home-p{
+		
+     margin-top: 180px!important;
+     
+     width: 500px!important; 
+	 height: 400px!important;
+	 padding-top: 50px;
+	position: relative;
+	position: relative;
+	left: 0%;
+	text-align: center!important;
+
+	}
+	#p-1{
+		font-weight: bolder;
+		color: white;
+		text-shadow: 0px 0px 1px white,0px 0px 2px black;
+	}
+	#h-1{
+		
+		font-size: 17px;
+		
+		
+	}
+	#p-2{
+		font-size: 15px;
+		
+		
+	}
+	#home-p button{
+		padding: 10px;
+		font-size: 10px!important;
+		color: white ;
+		
+		
+		
+
+	}
+	#open{
+		display: block;
+	}
+
+	
+	#shoe-home{
+	margin-top:-180px!important;
+	 padding-right:100px!important;
+	 width: 500px!important; 
+	 height: 200px;
+	 transition: 0.5s;
+	 position: relative;
+	 left: 31px;
+	 
+	
+    }
+    html{
+		scroll-behavior: smooth;	
+		overflow-x: hidden;
+	}
+	#one{
+		height: 100vh;
+	}
+
+}
+
+@media(min-width: 319px)
+{
+	html{
+		scroll-behavior: smooth;	
+		overflow-x: hidden;
+	}
+}
