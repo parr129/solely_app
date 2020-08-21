@@ -9,6 +9,20 @@
 		color: white;
 		
 	}
+#loader{
+		z-index: 999999999999999!important;
+		width: 100%;
+		height: 100vh;
+		background: #252525;
+		margin: auto;
+		position: fixed;
+		background-image: url('loader.gif');
+		z-index: 999999;
+		background-repeat: no-repeat;
+		background-position: center;	
+		background-color:#d9edfa;
+		display: 
+	}
 	button:focus{
 		outline: none!important;
 		
