@@ -9,19 +9,19 @@
 		color: white;
 		
 	}
-#loader{
+	#loader{
 		z-index: 999999999999999!important;
 		width: 100%;
-		height: 100vh;
+		height: 100%;
 		background: #252525;
 		margin: auto;
 		position: fixed;
 		background-image: url('loader.gif');
-		z-index: 999999;
+		background-size:31%;
 		background-repeat: no-repeat;
 		background-position: center;	
 		background-color:#d9edfa;
-		display: 
+		
 	}
 	button:focus{
 		outline: none!important;
@@ -951,6 +951,9 @@ font-weight: bolder;
 	font-size: 20px;
 	transition: 0.4s;
 	}
+	#loader{
+		background-size:41%;
+	}
 			#sec-div span::before{
   content: "_______";
   position:absolute;
@@ -972,6 +975,9 @@ font-weight: bolder;
   margin: auto;
     		
     }
+    #loader{
+		background-size:45%;
+	}
     #logy-d{
     	padding-right: 150px!important;
     	width: 100px!important;
@@ -1105,6 +1111,9 @@ font-family: 'Lato', sans-serif;
   margin: auto;
     		
     }
+    #loader{
+		background-size:48%;
+	}
       #logy-d{
     	padding-right: 150px!important;
     	
@@ -1231,6 +1240,9 @@ font-family: 'Lato', sans-serif;
   margin: auto;
     		
     }
+    #loader{
+		background-size:50%;
+	}
     #logy-d{
     	padding-right: 150px!important;
     	width: 100px!important;
@@ -1389,6 +1401,9 @@ font-size: 12px!important;
 		display: none;
 
 	}
+	 #loader{
+		background-size:55%;
+	}
 	#nav-i{
 		display: none;
 		color: transparent!important;
@@ -1539,6 +1554,9 @@ margin-top: 50px;
 @media(min-width: 365px) and (max-width: 523px){
 	#nav{
 		display: none;
+	}
+	#loader{
+		background-size:80%;
 	}
 	#nav-i{
 		display: none;
@@ -1704,6 +1722,9 @@ margin-top: 50px;
 @media(min-width: 320px) and (max-width: 364px){
 	#nav{
 		display: none;
+	}
+	#loader{
+		background-size:80%;
 	}
 	#nav-i{
 		display: none;
