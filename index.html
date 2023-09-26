@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Comfy</title>
+	<title>Solely</title>
 		
 	<link rel="icon" type="png" href="Logo-web.png" >
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -21,6 +21,34 @@
 
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script>
+	function checkReview() {
+	  // Get the review text from your web page
+	  const reviewText = document.getElementById("reviewText").value; // Replace "reviewText" with the actual ID of your review input field
+  
+	  // Perform NLP analysis on the reviewText
+	  // You can use NLP libraries or services like TensorFlow, spaCy, or an API like OpenAI's GPT-3 to analyze the text.
+  
+	  // For this example, let's assume you have a simple check for profanity.
+	  const isProfane = checkForProfanity(reviewText);
+  
+	  // Provide feedback based on the analysis
+	  if (isProfane) {
+		alert("Your review contains inappropriate content.");
+	  } else {
+		alert("Your review looks good!");
+	  }
+	}
+  
+	// Example function to check for profanity (replace with your actual NLP analysis)
+	function checkForProfanity(text) {
+	  // Implement your profanity checking logic here.
+	  // This is just a placeholder example.
+	  const profaneWords = ["profanity1", "profanity2", "profanity3"];
+	  return profaneWords.some(word => text.includes(word));
+	}
+  </script>  
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -94,7 +122,7 @@
 
 <div id="navy" >
 	<ul >
-		<li id="logy-d"><img id="logy-img"src="Logo.png"></li>
+		<li id="logy-d"><img id="logy-img"src="Logo.jpeg"></li>
 	    <li  id="nav-i">HOME </li>
 	    <li id="nav-i">SHOP</li>
 	    <li id="nav-i">BLOG</li>
@@ -110,7 +138,7 @@
 </ul>
 </div>
 
-<img id="logy" src="Logo.png">
+<img id="logy" src="Logo.jpeg">
 <!-- ///nav icons/// -->
 <div id="nav-icons" >
 	<i  class="fa fa-search"></i>
@@ -390,6 +418,10 @@
 	</div>
 </div>
 <section id="last">
+	<textarea id="reviewText" rows="4" cols="50"></textarea>
+
+	<button id="reviewCheckButton" onclick="checkReview()">Check Review</button>
+
 <div class="container" data-aos="fade-up">
 	<div class="row">
 	<div class="col-xl-5 col-lg-5 col-md-10 col-sm-10 col-10 ml-0 d-block " id="last-1">
@@ -469,7 +501,7 @@
         
   		
   		if (value > 150) {
-          navy.style.background="linear-gradient(to left,#FF9A00,#FF6800 )";
+          navy.style.background="linear-gradient(to left,#083ab6,#52007b )";
           navy.style.Color="black";
           navy.style.position="fixed";
           navy.style.marginTop="-150px";
