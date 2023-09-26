@@ -5,9 +5,9 @@
 		
 	<link rel="icon" type="png" href="Logo-web.png" >
 	<link rel="stylesheet" type="text/css" href="style.css">
-	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 	 
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	
 
@@ -22,36 +22,10 @@
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-<script>
-	function checkReview() {
-	  // Get the review text from your web page
-	  const reviewText = document.getElementById("reviewText").value; // Replace "reviewText" with the actual ID of your review input field
-  
-	  // Perform NLP analysis on the reviewText
-	  // You can use NLP libraries or services like TensorFlow, spaCy, or an API like OpenAI's GPT-3 to analyze the text.
-  
-	  // For this example, let's assume you have a simple check for profanity.
-	  const isProfane = checkForProfanity(reviewText);
-  
-	  // Provide feedback based on the analysis
-	  if (isProfane) {
-		alert("Your review contains inappropriate content.");
-	  } else {
-		alert("Your review looks good!");
-	  }
-	}
-  
-	// Example function to check for profanity (replace with your actual NLP analysis)
-	function checkForProfanity(text) {
-	  // Implement your profanity checking logic here.
-	  // This is just a placeholder example.
-	  const profaneWords = ["profanity1", "profanity2", "profanity3"];
-	  return profaneWords.some(word => text.includes(word));
-	}
-  </script>  
-
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -418,9 +392,12 @@
 	</div>
 </div>
 <section id="last">
-	<textarea id="reviewText" rows="4" cols="50"></textarea>
+	<form id="reviewForm">
+        <textarea id="reviewText" rows="4" cols="50" placeholder="Enter your review here..."></textarea>
+        <button type="button" id="analyzeButton">Analyze Review</button>
+    </form>
 
-	<button id="reviewCheckButton" onclick="checkReview()">Check Review</button>
+	<div id="result"></div>
 
 <div class="container" data-aos="fade-up">
 	<div class="row">
@@ -565,6 +542,9 @@
   	}
 
   </script>
+
+
+
   
   <script>
 function openNav() {
@@ -575,4 +555,9 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 </script>
+
+<script src="./app.js" type="module"></script>
+
+
+
 </html>
